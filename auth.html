@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Авторизация</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<header>
+    <a href="index.html">
+        <div class="logo">
+            <img src="img/water.png" alt="Мир сантехники" style="width: 70px; height: 70px;">
+        </div></a>
+    </div>
+    <div class="logo-name">
+        <h1 class="name-h"><a href="index.html">Мир сантехники</a></h1>
+    </div>
+    <div class="nav-search">
+        <input type="search" name="text" class="search" placeholder="Поиск.."/>
+        <button type="submit" formmethod="POST" formaction="index.html">Отправить</button>
+    </div>
+    <div class="auto">
+        <a href="registr.html" class="button-auto">
+            Регистрация
+        </a>
+        <a href="auth.html" class="button-auto">
+            Вход
+        </a>
+    </div>
+</header>
+<body>
+    <div class="main-content">
+        <div class="authorization">
+            <form action="auth.php" method="post">
+                <input type="text" class="form-control" name="login"
+                id="login" placeholder="Введите логин"><br>
+                <input type="password" class="form-control" name="pass"
+                id="pass" placeholder="Введите пароль"><br>
+                <button class="btn btn-success"
+                type="submit">Войти</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

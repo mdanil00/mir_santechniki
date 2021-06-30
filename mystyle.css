@@ -1,0 +1,74 @@
+.name-content {
+    width: 300px;
+    height: 65px;
+    margin: 0 0 0 35%;
+    color: blue;
+    border: 0px solid black;
+}
+.row {
+    width: 250px;
+    height: 250px;
+    margin: 5% 0 5% 7%;
+    border: 0px solid black;
+    float: left;
+}
+.img {
+    width: 190px;
+    height: 190px;
+    margin: 0 0 0 12%;
+    border: 0px solid black;
+    float: left;
+}
+.name {
+    width: 250px;
+    height: 35px;
+    border: 0px solid black;
+    float: left;
+}
+.cena {
+    width: 250px;
+    height: 20px;
+    border: 0px solid black;
+    float: left;
+}
+
+.main-content {
+    width: 1100px;
+    height: 100%;
+    margin: 0 auto 0;
+    border: 2px solid #2E92E0;
+}
+.authorization {
+    width: 350px;
+    height: 400px%;
+    margin: 5% auto 0;
+    border: 5px solid rgb(14, 1, 131);
+}
+
+.row-2 {
+    width: 800px;
+    height: 200px;
+    border: 0px solid black;
+    margin: 10px 0 0 0;
+}
+.img-2 {
+    width: 190px;
+    height: 190px;
+    margin: 0;
+    border: 0px solid black;
+    float: left;
+}
+.description {
+    width: 400px;
+    height: 200px;
+    margin: 0 0 0 1%;
+    border: 0px solid black;
+    float: left;
+}
+.cena-2 {
+    width: 170px;
+    height: 100px;
+    margin: 80px 0 0 0;
+    border: 0px solid black;
+    float: left;
+}
